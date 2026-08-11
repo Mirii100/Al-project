@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Local On-Premise",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://localhost",
+            "serverInstance": "BC210",
+            "port": 7049,
+            "authentication": "Windows",
+            "dependencyPublishingOption": "Ignore",
+            "startupObjectId": 50111,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "tenant": "default",
+            "usePublicURLFromServer": false
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+
+6. Liquidity Report
+Metric
+Amount
+Cash at Bank
+
+
+Cash on Hand
+
+
+Total Liquid Assets
+
+
+Expected Loan Disbursements
+
+
+Expected Collections Today
+
+
+Net Liquidity Position
+
+
+Liquidity Ratio
+
+
+
+Cash Flow Forecast
+Period
+Inflows
+Outflows
+Net Cash
+Today
+
+
+
+
+
+
+7 Days
+
+
+
+
+
+
+30 Days
+
+
+
+
+
+
+

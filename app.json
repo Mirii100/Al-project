@@ -1,0 +1,30 @@
+{
+  "id": "8dd594fc-d530-4ecb-a62e-8c1c9d71d7bf",
+  "name": "Roots",
+  "publisher": "Default Publisher",
+  "version": "1.0.0.1",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "screenshots": [],
+ "platform": "21.0.0.0",
+   "application": "21.2.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "10.0",
+  "target": "OnPrem",
+  "features": []
+}
