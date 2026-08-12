@@ -8,363 +8,65 @@
         <ConnectString />
       </ConnectionProperties>
       <rd:SecurityType>None</rd:SecurityType>
-      <rd:DataSourceID>00000000-0000-0000-0000-000000000000</rd:DataSourceID>
     </DataSource>
   </DataSources>
-  <Datasets>
-    <Dataset Name="DataSet">
-      <Fields>
-        <Field Name="Metric">
-          <rd:TypeName>String</rd:TypeName>
-        </Field>
-        <Field Name="Amount">
-          <rd:TypeName>Decimal</rd:TypeName>
-        </Field>
-        <Field Name="MetricDate">
-          <rd:TypeName>Date</rd:TypeName>
-        </Field>
-        <Field Name="Period">
-          <rd:TypeName>String</rd:TypeName>
-        </Field>
-        <Field Name="Inflows">
-          <rd:TypeName>Decimal</rd:TypeName>
-        </Field>
-        <Field Name="Outflows">
-          <rd:TypeName>Decimal</rd:TypeName>
-        </Field>
-        <Field Name="NetCash">
-          <rd:TypeName>Decimal</rd:TypeName>
-        </Field>
-        <Field Name="ForecastDate">
-          <rd:TypeName>Date</rd:TypeName>
-        </Field>
-      </Fields>
-      <DataSetName>DataSet</DataSetName>
-      <Query>
-        <Text />
-        <CommandType>Text</CommandType>
-      </Query>
-      <rd:DataSetInfo>
-        <rd:AltFormat>0</rd:AltFormat>
-        <rd:IndexSystemOfAggregate>0</rd:IndexSystemOfAggregate>
-      </rd:DataSetInfo>
-    </Dataset>
-  </Datasets>
   <ReportSections>
     <ReportSection>
       <Body>
-        <ReportItems>
-          <Textbox Name="Title">
-            <CanGrow>true</CanGrow>
-            <KeepTogether>true</KeepTogether>
-            <Paragraphs>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value>Liquidity Report</Value>
-                    <FontSize>18pt</FontSize>
-                    <Style />
-                  </TextRun>
-                </TextRuns>
-                <Style />
-              </Paragraph>
-            </Paragraphs>
-            <rd:DefaultName>Title</rd:DefaultName>
-            <Height>0.25in</Height>
-            <Width>6.5in</Width>
-            <Style>
-              <Border>
-                <Style>None</Style>
-              </Border>
-              <PaddingLeft>2pt</PaddingLeft>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingTop>2pt</PaddingTop>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-          </Textbox>
-          <Textbox Name="LiquidityMetricsTitle">
-            <CanGrow>true</CanGrow>
-            <KeepTogether>true</KeepTogether>
-            <Paragraphs>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value>Liquidity Metrics</Value>
-                    <FontSize>12pt</FontSize>
-                    <Style />
-                  </TextRun>
-                </TextRuns>
-                <Style />
-              </Paragraph>
-            </Paragraphs>
-            <Top>0.5in</Top>
-            <Left>0in</Left>
-            <Height>0.25in</Height>
-            <Width>6.5in</Width>
-            <Style>
-              <Border>
-                <Style>None</Style>
-              </Border>
-              <PaddingLeft>2pt</PaddingLeft>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingTop>2pt</PaddingTop>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-          </Textbox>
-          <Table Name="LiquidityMetricsTable">
-            <AutoSize>True</AutoSize>
-            <NoRowsMessage>
-              <Style />
-            </NoRowsMessage>
-            <DataSetName>DataSet</DataSetName>
-            <Style>
-              <Border>
-                <Style>Default</Style>
-              </Border>
-              <PaddingLeft>2pt</PaddingLeft>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingTop>2pt</PaddingTop>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-            <Top>0.8in</Top>
-            <Left>0in</Left>
-            <Height>0.5in</Height>
-            <Width>6.5in</Width>
-            <Columns>
-              <Column>
-                <Width>2in</Width>
-              </Column>
-              <Column>
-                <Width>2in</Width>
-              </Column>
-            </Columns>
-            <Header>
-              <Style>
-                <Border>
-                  <Style>Default</Style>
-                </Border>
-              </Style>
-              <Height>0.25in</Height>
-              <Width>4in</Width>
-              <Columns>
-                <Column>
-                  <Value>Metric</Value>
-                  <Style>
-                    <Border>
-                      <Style>Default</Style>
-                    </Border>
-                  </Style>
-                </Column>
-                <Column>
-                  <Value>Amount</Value>
-                  <Style>
-                    <Border>
-                      <Style>Default</Style>
-                    </Border>
-                  </Style>
-                </Column>
-              </Columns>
-            </Header>
-            <Details>
-              <Style>
-                <Border>
-                  <Style>Default</Style>
-                </Border>
-              </Style>
-              <Height>0.25in</Height>
-              <Width>4in</Width>
-              <Columns>
-                <Column>
-                  <Value>=Fields!Metric.Value</Value>
-                  <Style>
-                    <Border>
-                      <Style>Default</Style>
-                    </Border>
-                  </Style>
-                </Column>
-                <Column>
-                  <Value>=Format(Fields!Amount.Value, "N2")</Value>
-                  <Style>
-                    <Border>
-                      <Style>Default</Style>
-                    </Border>
-                    <TextAlign>Right</TextAlign>
-                  </Style>
-                </Column>
-              </Columns>
-            </Details>
-          </Table>
-          <Textbox Name="CashFlowTitle">
-            <CanGrow>true</CanGrow>
-            <KeepTogether>true</KeepTogether>
-            <Paragraphs>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value>Cash Flow Forecast</Value>
-                    <FontSize>12pt</FontSize>
-                    <Style />
-                  </TextRun>
-                </TextRuns>
-                <Style />
-              </Paragraph>
-            </Paragraphs>
-            <Top>1.8in</Top>
-            <Left>0in</Left>
-            <Height>0.25in</Height>
-            <Width>6.5in</Width>
-            <Style>
-              <Border>
-                <Style>None</Style>
-              </Border>
-              <PaddingLeft>2pt</PaddingLeft>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingTop>2pt</PaddingTop>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-          </Textbox>
-          <Table Name="CashFlowTable">
-            <AutoSize>True</AutoSize>
-            <NoRowsMessage>
-              <Style />
-            </NoRowsMessage>
-            <DataSetName>DataSet</DataSetName>
-            <Style>
-              <Border>
-                <Style>Default</Style>
-              </Border>
-              <PaddingLeft>2pt</PaddingLeft>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingTop>2pt</PaddingTop>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-            <Top>2.1in</Top>
-            <Left>0in</Left>
-            <Height>0.75in</Height>
-            <Width>6.5in</Width>
-            <Columns>
-              <Column>
-                <Width>1.5in</Width>
-              </Column>
-              <Column>
-                <Width>1.5in</Width>
-              </Column>
-              <Column>
-                <Width>1.5in</Width>
-              </Column>
-              <Column>
-                <Width>1.5in</Width>
-              </Column>
-            </Columns>
-            <Header>
-              <Style>
-                <Border>
-                  <Style>Default</Style>
-                </Border>
-              </Style>
-              <Height>0.25in</Height>
-              <Width>6in</Width>
-              <Columns>
-                <Column>
-                  <Value>Period</Value>
-                  <Style>
-                    <Border>
-                      <Style>Default</Style>
-                    </Border>
-                  </Style>
-                </Column>
-                <Column>
-                  <Value>Inflows</Value>
-                  <Style>
-                    <Border>
-                      <Style>Default</Style>
-                    </Border>
-                  </Style>
-                </Column>
-                <Column>
-                  <Value>Outflows</Value>
-                  <Style>
-                    <Border>
-                      <Style>Default</Style>
-                    </Border>
-                  </Style>
-                </Column>
-                <Column>
-                  <Value>Net Cash</Value>
-                  <Style>
-                    <Border>
-                      <Style>Default</Style>
-                    </Border>
-                  </Style>
-                </Column>
-              </Columns>
-            </Header>
-            <Details>
-              <Style>
-                <Border>
-                  <Style>Default</Style>
-                </Border>
-              </Style>
-              <Height>0.25in</Height>
-              <Width>6in</Width>
-              <Columns>
-                <Column>
-                  <Value>=Fields!Period.Value</Value>
-                  <Style>
-                    <Border>
-                      <Style>Default</Style>
-                    </Border>
-                  </Style>
-                </Column>
-                <Column>
-                  <Value>=Format(Fields!Inflows.Value, "N2")</Value>
-                  <Style>
-                    <Border>
-                      <Style>Default</Style>
-                    </Border>
-                    <TextAlign>Right</TextAlign>
-                  </Style>
-                </Column>
-                <Column>
-                  <Value>=Format(Fields!Outflows.Value, "N2")</Value>
-                  <Style>
-                    <Border>
-                      <Style>Default</Style>
-                    </Border>
-                    <TextAlign>Right</TextAlign>
-                  </Style>
-                </Column>
-                <Column>
-                  <Value>=Format(Fields!NetCash.Value, "N2")</Value>
-                  <Style>
-                    <Border>
-                      <Style>Default</Style>
-                    </Border>
-                    <TextAlign>Right</TextAlign>
-                  </Style>
-                </Column>
-              </Columns>
-            </Details>
-          </Table>
-        </ReportItems>
-        <Height>3in</Height>
+        <Height>2in</Height>
         <Style />
       </Body>
       <Width>6.5in</Width>
       <Page>
-        <PageHeight>11in</PageHeight>
-        <PageWidth>8.5in</PageWidth>
         <Style />
       </Page>
     </ReportSection>
   </ReportSections>
-  <rd:ReportServer>
-    <rd:DataSchemaName>dbo</rd:DataSchemaName>
-  </rd:ReportServer>
-  <rd:ReportUUID>00000000-0000-0000-0000-000000000000</rd:ReportUUID>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
   <DataSets>
     <DataSet Name="DataSet_Result">
       <Fields>
+        <Field Name="EntryNo">
+          <DataField>EntryNo</DataField>
+        </Field>
         <Field Name="Metric">
           <DataField>Metric</DataField>
         </Field>

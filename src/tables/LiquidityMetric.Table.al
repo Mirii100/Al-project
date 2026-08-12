@@ -31,13 +31,25 @@ table 50101 "Liquidity Metric"
         }
     }
 
+    // keys
+    // {
+    //     key(PK; "Entry No.")
+    //     {
+    //         Clustered = true;
+    //     }
+    //     key(MetricKey; "Metric")
+    //     {
+    //     }
+    // }
+
     keys
     {
         key(PK; "Entry No.")
         {
             Clustered = true;
         }
-        key(MetricKey; "Metric")
+
+        key(MetricDateKey; "Date", "Metric")
         {
         }
     }
