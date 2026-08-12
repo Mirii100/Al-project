@@ -1,23 +1,46 @@
-page 50123 "Loans"
+page 50115 "Loans"
 {
-    PageType = List;
+    PageType = ListPart;
     ApplicationArea = All;
     UsageCategory = Lists;
-    Caption = 'Loans';
     SourceTable = "Loan";
+    Caption = 'Loans';
 
     layout
     {
-        area(Content)
+        area(content)
         {
-            repeater(General)
+            repeater(Loans)
             {
-                field("No."; "No.") { }
-                field("Customer No."; "Customer No.") { }
-                field("Loan Amount"; "Loan Amount") { }
-                field("Outstanding Amount"; "Outstanding Amount") { }
-                field("Disbursement Date"; "Disbursement Date") { }
-                field("Status"; "Status") { }
+                field("No."; Rec."No.")
+                {
+                    ApplicationArea = All;
+                }
+
+                field("Customer No."; Rec."Customer No.")
+                {
+                    ApplicationArea = All;
+                }
+
+                field("Loan Amount"; Rec."Loan Amount")
+                {
+                    ApplicationArea = All;
+                }
+
+                field("Outstanding Amount"; Rec."Outstanding Amount")
+                {
+                    ApplicationArea = All;
+                }
+
+                field("Disbursement Date"; Rec."Disbursement Date")
+                {
+                    ApplicationArea = All;
+                }
+
+                field(Status; Rec.Status)
+                {
+                    ApplicationArea = All;
+                }
             }
         }
     }

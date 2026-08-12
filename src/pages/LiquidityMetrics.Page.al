@@ -1,21 +1,36 @@
-page 50120 "Liquidity Metrics"
+page 50113 "Liquidity Metrics"
 {
-    PageType = List;
+    PageType = ListPart;
     ApplicationArea = All;
     UsageCategory = Lists;
-    Caption = 'Liquidity Metrics';
     SourceTable = "Liquidity Metric";
+    Caption = 'Liquidity Metrics';
 
     layout
     {
-        area(Content)
+        area(content)
         {
-            repeater(General)
+            repeater(Metrics)
             {
-                field("Entry No."; "Entry No.") { }
-                field("Metric"; "Metric") { }
-                field("Amount"; "Amount") { }
-                field("Date"; "Date") { }
+                field("Entry No."; Rec."Entry No.")
+                {
+                    ApplicationArea = All;
+                }
+
+                field(Metric; Rec.Metric)
+                {
+                    ApplicationArea = All;
+                }
+
+                field(Amount; Rec.Amount)
+                {
+                    ApplicationArea = All;
+                }
+
+                field("Date"; Rec."Date")
+                {
+                    ApplicationArea = All;
+                }
             }
         }
     }

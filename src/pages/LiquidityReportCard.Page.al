@@ -6,6 +6,21 @@ page 50110 "Liquidity Report Card"
     Caption = 'Liquidity Report Card';
     PromotedActionCategories = 'New,Process,Report';
 
+    layout
+    {
+        area(Content)
+        {
+            part("Liquidity Metrics"; "Liquidity Metrics")
+            {
+                ApplicationArea = All;
+            }
+            part("Cash Flow Forecast"; "Cash Flow Forecast Entries")
+            {
+                ApplicationArea = All;
+            }
+        }
+    }
+
     actions
     {
         area(Processing)

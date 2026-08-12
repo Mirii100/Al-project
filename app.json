@@ -1,7 +1,7 @@
 {
-  "id": "8dd594fc-d530-4ecb-a62e-8c1c9d71d7bf",
-  "name": "Roots",
-  "publisher": "Default Publisher",
+  "id": "c9e391e0-3547-4cc5-bb9a-87842b44aa9a",
+ "name": "BOSA Management",
+"publisher": "Micropoint",
   "version": "1.0.0.1",
   "brief": "",
   "description": "",
@@ -11,20 +11,25 @@
   "url": "",
   "logo": "",
   "screenshots": [],
- "platform": "21.0.0.0",
-   "application": "21.2.0.0",
-  "idRanges": [
-    {
-      "from": 50100,
-      "to": 50149
-    }
-  ],
-  "resourceExposurePolicy": {
+   "platform": "21.0.46384.46844",
+   "application": "21.0.46256.46853",
+
+   "resourceExposurePolicy": {
     "allowDebugging": true,
     "allowDownloadingSource": true,
-    "includeSourceInSymbolFile": true
+    "includeSourceInSymbolFile": true,
+    "applyToDevExtension": false
   },
   "runtime": "10.0",
-  "target": "OnPrem",
-  "features": []
+   "target": "Cloud",
+ "features": [
+    "NOIMPLICITWITH"
+  ],
+ 
+   "idRanges": [
+    {
+      "from": 50000,
+      "to": 50999
+    }
+  ]
 }

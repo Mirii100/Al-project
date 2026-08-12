@@ -1,22 +1,41 @@
-page 50122 "Loan Disbursements"
+page 50114 "Loan Disbursements"
 {
-    PageType = List;
+    PageType = ListPart;
     ApplicationArea = All;
     UsageCategory = Lists;
-    Caption = 'Loan Disbursements';
     SourceTable = "Loan Disbursement";
+    Caption = 'Loan Disbursements';
 
     layout
     {
-        area(Content)
+        area(content)
         {
-            repeater(General)
+            repeater(Disbursements)
             {
-                field("No."; "No.") { }
-                field("Loan No."; "Loan No.") { }
-                field("Posting Date"; "Posting Date") { }
-                field("Amount"; "Amount") { }
-                field("Status"; "Status") { }
+                field("No."; Rec."No.")
+                {
+                    ApplicationArea = All;
+                }
+
+                field("Loan No."; Rec."Loan No.")
+                {
+                    ApplicationArea = All;
+                }
+
+                field("Posting Date"; Rec."Posting Date")
+                {
+                    ApplicationArea = All;
+                }
+
+                field(Amount; Rec.Amount)
+                {
+                    ApplicationArea = All;
+                }
+
+                field(Status; Rec.Status)
+                {
+                    ApplicationArea = All;
+                }
             }
         }
     }
