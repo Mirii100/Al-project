@@ -1,0 +1,795 @@
+
+ROOTS CREDIT LIMITED
+MIS EXPECTED REPORTS
+1. PAR (Portfolio at Risk) Report
+Indicator
+Amount (KES)
+% of Gross Loan Portfolio
+Gross Loan Portfolio
+
+
+
+
+PAR > 1 Day
+
+
+
+
+PAR > 30 Days
+
+
+
+
+PAR > 60 Days
+
+
+
+
+PAR > 90 Days
+
+
+
+
+Performing Portfolio
+
+
+
+
+Restructured Loans
+
+
+
+
+Written-off Loans
+
+
+
+
+
+Breakdown
+Branch
+Portfolio
+PAR 30
+PAR 60
+PAR 90
+PAR %
+Branch A
+
+
+
+
+
+
+
+
+
+
+Branch B
+
+
+
+
+
+
+
+
+
+
+
+
+2. NPL Report
+Metric
+Value
+Gross Loan Portfolio
+
+
+Total NPL
+
+
+NPL Ratio
+
+
+Loan Loss Provision
+
+
+Provision Coverage Ratio
+
+
+Write-offs (YTD)
+
+
+Recoveries
+
+
+
+NPL Analysis
+Branch
+NPL Amount
+NPL Ratio
+Provision
+Recovery Rate
+
+
+
+
+
+
+
+
+
+
+
+
+3. Ageing Analysis
+Days Past Due
+Number of Loans
+Outstanding Balance
+% Portfolio
+Current
+
+
+
+
+
+
+1–30 Days
+
+
+
+
+
+
+31–60 Days
+
+
+
+
+
+
+61–90 Days
+
+
+
+
+
+
+91–180 Days
+
+
+
+
+
+
+Above 180 Days
+
+
+
+
+
+
+
+
+4. Top Defaulters Report
+Rank
+Customer
+Employer
+Sector
+Outstanding
+Days Past Due
+Last Payment
+Recovery Status
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5. Exposure by Customer / Employer / Sector
+By Customer
+Customer
+Total Exposure
+Active Loans
+Collateral
+Risk Grade
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+By Employer
+Employer
+Number of Borrowers
+Totals Exposure
+PAR%
+NPL%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+By Sector
+Sector
+Portfolio
+Number of Customers
+PAR
+NPL
+Concentration %
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6. Liquidity Report
+Metric
+Amount
+Cash at Bank
+
+
+Cash on Hand
+
+
+Total Liquid Assets
+
+
+Expected Loan Disbursements
+
+
+Expected Collections Today
+
+
+Net Liquidity Position
+
+
+Liquidity Ratio
+
+
+
+Cash Flow Forecast
+Period
+Inflows
+Outflows
+Net Cash
+Today
+
+
+
+
+
+
+7 Days
+
+
+
+
+
+
+30 Days
+
+
+
+
+
+
+
+
+7. Exception Report
+Exception Type
+Customer
+Description
+Risk Level
+Owner (Credit Officer)
+Status
+Over Limit Exposure
+
+
+
+
+High
+
+
+
+
+Missing Security
+
+
+
+
+Medium
+
+
+
+
+Expired Insurance
+
+
+
+
+Medium
+
+
+
+
+Unauthorized Rate
+
+
+
+
+High
+
+
+
+
+Duplicate Loan
+
+
+
+
+High
+
+
+
+
+Missing KYC
+
+
+
+
+High
+
+
+
+
+
+
+8. CBK / Regulatory Reporting Capability
+Prudential Summary
+Indicator
+Actual
+Regulatory Limit
+Status
+Capital Adequacy
+
+
+
+
+
+
+Liquidity Ratio
+
+
+
+
+
+
+NPL Ratio
+
+
+
+
+
+
+Provision Coverage
+
+
+
+
+
+
+Single Borrower Exposure
+
+
+
+
+
+
+Insider Lending
+
+
+
+
+
+
+
+Regulatory Returns
+Loan portfolio by product 
+Capital adequacy 
+Liquidity returns 
+Large exposure report 
+Insider lending report 
+Provisioning report 
+NPL report 
+Branch performance 
+Financial statements (Balance Sheet & Income Statement) 
+9. Compliance Reports
+Compliance Area
+Status
+Issues
+Owner
+Due Date
+KYC Compliance
+
+
+
+
+
+
+
+
+AML Monitoring
+
+
+
+
+
+
+
+
+Sanctions Screening
+
+
+
+
+
+
+
+
+Customer Due Diligence
+
+
+
+
+
+
+
+
+Regulatory Returns
+
+
+
+
+
+
+
+
+Audit Findings
+
+
+
+
+
+
+
+
+
+
+10. CEO Dashboard
+Executive KPIs
+KPI
+Current
+Target
+Status
+Gross Loan Portfolio
+
+
+
+
+
+
+Active Borrowers
+
+
+
+
+
+
+Monthly Disbursements
+
+
+
+
+
+
+Monthly Collections
+
+
+
+
+
+
+Portfolio at Risk (>30)
+
+
+
+
+
+
+NPL Ratio
+
+
+
+
+
+
+Recovery Rate
+
+
+
+
+
+
+Operating Income
+
+
+
+
+
+
+Net Profit
+
+
+
+
+
+
+Liquidity Ratio
+
+
+
+
+
+
+
+Dashboard Visuals
+Portfolio growth trend 
+Monthly disbursements 
+Collections vs target 
+PAR trend 
+NPL trend 
+Branch performance ranking 
+Top employer exposures 
+Liquidity trend 
+Profitability trend 
+11. Board Dashboard
+Strategic Indicators
+Indicator
+Current
+Previous
+Target
+Total Assets
+
+
+
+
+
+
+Loan Portfolio
+
+
+
+
+
+
+Share Capital Base
+
+
+
+
+
+
+Liabilities (Loans i.e Placements, Bonds, investors & Banks)
+
+
+
+
+
+
+NPL Ratio
+
+
+
+
+
+
+PAR 30
+
+
+
+
+
+
+Capital Adequacy
+
+
+
+
+
+
+Liquidity Ratio
+
+
+
+
+
+
+Return on Assets
+
+
+
+
+
+
+Return on Equity
+
+
+
+
+
+
+Cost-to-Income Ratio
+
+
+
+
+
+
+
+Strategic Visuals
+Portfolio growth (12-month trend) 
+Profitability trend 
+NPL trend 
+Sector concentration 
+Branch performance 
+Liquidity position 
+Capital adequacy 
+Risk heat map 
+Regulatory compliance status 
+12. Risk Dashboard
+Credit Risk Metrics
+Metric
+Current
+Limit
+Status
+PAR 30
+
+
+
+
+
+
+PAR 90
+
+
+
+
+
+
+NPL Ratio
+
+
+
+
+
+
+Recovery Rate
+
+
+
+
+
+
+Write-offs
+
+
+
+
+
+
+Provision Coverage
+
+
+
+
+
+
+
+Concentration Risk
+Top 20 borrowers 
+Top 5 employers 
+Top 10 sectors 
+Geographic concentration 
+Product concentration 
+Operational Risk
+Fraud incidents 
+System downtime 
+Policy exceptions 
+Internal audit findings 
+Outstanding risk actions 
+Compliance Risk
+AML alerts 
+KYC exceptions 
+Regulatory breaches 
+Overdue compliance actions 
+Liquidity Risk
+Daily liquidity ratio 
+Cash available 
+Loan pipeline 
+Funding gap analysis 
+Stress testing results 
+Key Dashboard Visuals
+Risk heat map (Low/Medium/High) 
+PAR ageing waterfall 
+NPL trend (12 months) 
+Sector exposure pie chart 
+Employer concentration chart 
+Top defaulters table 
+Recovery performance trend 
+Liquidity trend 
+Compliance scorecard 
+Early warning indicators 

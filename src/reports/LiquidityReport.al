@@ -114,17 +114,12 @@ report 50100 "Liquidity Report"
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
     Caption = 'Liquidity Report';
-
     RDLCLayout = 'src/layouts/LiquidityReport.rdl';
 
     dataset
     {
         dataitem(LiquidityMetric; "Liquidity Metric")
         {
-            column(EntryNo; "Entry No.")
-            {
-            }
-
             column(Metric; Metric)
             {
             }
@@ -136,6 +131,39 @@ report 50100 "Liquidity Report"
             column(MetricDate; "Date")
             {
             }
+
+            trigger OnPreDataItem()
+            begin
+                SetRange("Date", WorkDate(), WorkDate());
+            end;
+        }
+
+        dataitem(BOSACashFlowSummary; "BOSA Cash Flow Summary")
+        {
+            column(Period; Period)
+            {
+            }
+
+            column(Inflows; Inflows)
+            {
+            }
+
+            column(Outflows; Outflows)
+            {
+            }
+
+            column(NetCash; "Net Cash")
+            {
+            }
+
+            column(SummaryDate; "Date")
+            {
+            }
+
+            trigger OnPreDataItem()
+            begin
+                SetRange("Date", WorkDate(), WorkDate());
+            end;
         }
     }
 }
